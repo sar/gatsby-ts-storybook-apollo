@@ -5,8 +5,10 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@apollo/client": "^3.3.7",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
+    "gatsby-plugin-apollo": "^3.0.2",
     "gatsby-plugin-manifest": "^2.6.1",
     "gatsby-plugin-offline": "^3.4.0",
     "gatsby-plugin-react-helmet": "^3.4.0",
@@ -20,8 +22,8 @@
     "storybook": "^6.1.14"
   },
   "devDependencies": {
-    "prettier": "2.2.1",
     "@storybook/cli": "^6.1.14",
+    "prettier": "2.2.1",
     "typescript": "^4.1.3"
   },
   "keywords": [
