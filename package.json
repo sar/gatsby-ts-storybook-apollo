@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@storybook/cli": "^6.1.14",
+    "dotenv": "^8.2.0",
     "prettier": "2.2.1",
     "typescript": "^4.1.3"
   },
