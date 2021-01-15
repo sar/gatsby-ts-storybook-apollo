@@ -21,6 +21,14 @@ export const plugins = [
       path: `${__dirname}/src/images`,
     },
   },
+  {
+    resolve: 'gatsby-plugin-apollo',
+    options: {
+      typeName: 'ApiExample',
+      fieldName: 'apiExample',
+      uri: process.env.GATSBY_APOLLO_API_URI
+    }
+  },
   `gatsby-transformer-sharp`,
   `gatsby-plugin-sharp`,
   {
